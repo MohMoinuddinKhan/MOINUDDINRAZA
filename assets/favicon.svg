@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#282832" />
+      <stop offset="100%" stop-color="#050507" />
+    </radialGradient>
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.8" flood-color="#ffffff" flood-opacity="0.6" />
+    </filter>
+  </defs>
+  <!-- Rounded Noir Badge Background -->
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bgGlow)" stroke="#ffffff" stroke-width="2.5" stroke-opacity="0.88" />
+  <!-- Bold Monogram "MK" Vector Emblem -->
+  <g fill="#ffffff" filter="url(#textGlow)">
+    <!-- Letter M -->
+    <path d="M8 46V18h6.4l6.2 14.8L26.8 18H33v28h-5.4V28.2L22.2 41h-3.2l-5.4-12.8V46H8z" />
+    <!-- Letter K -->
+    <path d="M37 46V18h5.8v11.6L50.8 18H58l-9.2 12.4L58.4 46h-7.4l-6.4-11.2L42.8 37V46H37z" />
+  </g>
+</svg>

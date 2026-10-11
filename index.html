@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MOINUDDIN RAZA QADRI — B.Tech CSE Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=2" />
+  <!-- Google Fonts: Anton for display, Bebas Neue for brand mark, Inter & Syne for editorial bento typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Subtle monochrome film grain overlay -->
+  <div class="film-grain" aria-hidden="true"></div>
+
+  <!-- ========================================================================
+       1. MAIN HERO STAGE (100vh First Screen)
+       ======================================================================== -->
+  <main class="hero-stage" id="home">
+    <!-- Top Navigation Bar -->
+    <header class="navbar">
+      <a href="#home" class="brand-logo" aria-label="Moinuddin Raza Home">MOINUDDIN RAZA</a>
+
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#bento-showcase" class="nav-link">Portfolio</a>
+        <a href="#about" class="nav-link" data-modal="about">About</a>
+        <a href="#contact" class="nav-link" data-modal="contact">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color / monochrome mode" aria-pressed="true" title="Toggle B&W / Color Mode">
+        <span class="toggle-knob"></span>
+      </button>
+    </header>
+
+    <!-- Giant Background Display Typography (Layered Behind Portrait) -->
+    <section class="hero-typography-layer" id="parallaxText" aria-label="Hero Headline">
+      <h1 class="giant-title-row">
+        <span class="giant-word">MOINUDDIN</span>
+      </h1>
+
+      <div class="subtitle-row">
+        <a href="#bento-showcase" class="subtitle-text subtitle-left">
+          Scroll For Portfolio &darr;
+        </a>
+        <span class="subtitle-text subtitle-right">
+          Presented By: MOINUDDIN RAZA QADRI
+        </span>
+      </div>
+    </section>
+
+    <!-- Foreground Cutout Layer (Layered In Front of Giant Text) -->
+    <div class="actor-layer" id="parallaxActor">
+      <img
+        id="actorImg"
+        src="assets/moinuddin-cutout.png"
+        alt="Moinuddin Raza Qadri Featured Portrait"
+        class="actor-portrait"
+        draggable="false"
+      />
+    </div>
+
+    <!-- Lower Left Social Badges -->
+    <footer class="hero-bottom-bar">
+      <div class="social-badges">
+        <a
+          href="https://www.instagram.com/moinuddin_khan_25?srtk=cHhwaXNsZ2xqdDRn"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="social-badge"
+          aria-label="Instagram"
+          title="Follow Moinuddin on Instagram"
+        >
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
+        <a
+          href="https://www.snapchat.com/add/moinuddin7830?share_id=PAuw2stwk-w&locale=en-IN"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="social-badge"
+          aria-label="Snapchat"
+          title="Add Moinuddin on Snapchat"
+        >
+          <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor">
+            <path d="M12.166 3c.796 0 3.495.223 4.769 2.993.438.951.331 2.559.242 3.858l-.019.286c-.048.728.068.859.222.936.265.134.614.054.905-.014.165-.039.31-.073.437-.073.242 0 .485.072.66.223.272.233.34.582.194.951-.184.466-.728.835-1.368 1.077-.165.063-.534.194-.641.369-.116.184-.078.417.029.669.049.117.107.233.175.359.466.883 1.388 1.989 2.756 2.271.194.039.359.204.379.407.019.165-.049.388-.32.563-.534.349-1.378.592-2.29.718-.185.029-.301.116-.369.291-.058.155-.097.34-.146.534-.087.378-.213.718-.572.786-.194.039-.427.01-.709-.039-.407-.068-.902-.155-1.504-.155-.641 0-1.155.146-1.757.476-.708.388-1.514.873-2.668.873-1.116 0-1.922-.485-2.63-.873-.602-.33-1.116-.476-1.757-.476-.601 0-1.096.087-1.504.155-.281.049-.514.078-.708.039-.359-.068-.485-.408-.573-.786-.048-.194-.087-.379-.145-.534-.068-.175-.185-.262-.369-.291-.912-.126-1.756-.369-2.29-.718-.272-.175-.34-.398-.32-.563.019-.203.184-.368.378-.407 1.368-.282 2.29-1.388 2.756-2.271.068-.126.126-.242.175-.359.106-.252.145-.485.029-.669-.107-.175-.476-.306-.641-.369-.64-.242-1.184-.611-1.368-1.077-.146-.369-.078-.718.194-.951.175-.151.417-.223.66-.223.126 0 .272.034.437.073.291.068.64.148.905.014.154-.077.27-.208.222-.936l-.019-.286c-.088-1.299-.195-2.907.242-3.858C8.671 3.223 11.37 3 12.166 3z"/>
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </main>
+
+  <!-- ========================================================================
+       2. EDITORIAL BENTO SHOWCASE (Inspired by Reference Layout in Dark Noir Theme)
+       ======================================================================== -->
+  <section class="bento-stage-section" id="bento-showcase">
+    <div class="bento-frame-shell reveal-on-scroll">
+
+      <!-- Main Asymmetric 2-Column Bento Layout -->
+      <div class="bento-main-layout">
+
+        <!-- LEFT COLUMN: Large Statement Card + Two Bottom Portrait Cards -->
+        <div class="bento-left-col">
+
+          <!-- Top-Left Large Typographic Statement Card -->
+          <div class="bento-hero-statement-card" id="bentoStatementCard">
+            <div class="statement-headline-wrap">
+              <div class="statement-line-1">
+                <span id="bentoTitle1">DRIVEN</span>
+                <span class="long-arrow" aria-hidden="true"></span>
+              </div>
+              <div class="statement-line-2" id="bentoTitle2">BY EDUCATION &amp;</div>
+              <div class="statement-line-3" id="bentoTitle3">BIGGER DREAMS</div>
+            </div>
+
+            <div class="statement-body-wrap">
+              <p class="statement-desc" id="bentoDesc">
+                <strong>Education:</strong> Currently pursuing <strong>B.Tech in Computer Science &amp; Engineering (CSE)</strong>
+                at <strong>Anjuman College of Engineering and Technology (ACET)</strong>, mastering core software engineering,
+                algorithms, and modern web technologies.
+              </p>
+              <p class="statement-desc statement-dream" id="bentoDream">
+                <strong>My Dream:</strong> To become a top-tier <strong>Software Engineer &amp; Tech Innovator</strong> —
+                creating impactful digital products used by millions, mastering future-ready technology, and turning relentless
+                hard work into a legacy of success.
+              </p>
+            </div>
+          </div>
+
+          <!-- Bottom-Left Two Equal Portrait/Category Cards Side-by-Side -->
+          <div class="bento-bottom-pair">
+            <!-- Sub-Card 1 -->
+            <div class="bento-sub-card sub-card-dark" data-bento-select="education">
+              <img src="assets/bento-photo.png" alt="Moinuddin B.Tech CSE" class="sub-card-img cover-fit" />
+              <div class="sub-card-shade"></div>
+              <div class="sub-card-meta">
+                <span class="sub-card-pill">ACET NAGPUR</span>
+                <span class="sub-card-hashtag" id="subTag1">#BTECH_CSE</span>
+              </div>
+            </div>
+
+            <!-- Sub-Card 2 -->
+            <div class="bento-sub-card sub-card-olive" data-bento-select="experience">
+              <img src="assets/about-photo.jpg" alt="Moinuddin Developer" class="sub-card-img cover-fit" />
+              <div class="sub-card-shade"></div>
+              <div class="sub-card-meta">
+                <span class="sub-card-pill">SOFTWARE &amp; WEB</span>
+                <span class="sub-card-hashtag" id="subTag2">#DEVELOPER</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN: Tall Full-Height Visual Feature Card -->
+        <div class="bento-right-tall-card">
+          <img src="assets/about-photo.jpg" alt="Moinuddin Raza Qadri Featured" class="tall-card-bg-img" id="bentoMainPhoto" />
+          <div class="tall-card-vignette"></div>
+
+          <!-- Top-Right Status Tag inside Tall Card -->
+          <div class="tall-card-top-badge">
+            <span class="live-pulse"></span>
+            <span>MOINUDDIN RAZA QADRI &bull; CSE</span>
+          </div>
+
+          <!-- Floating Circular Frosted Glass Button (Like "SHOP NOW" in Reference) -->
+          <a href="#details-bento" class="floating-circle-cta" id="floatingCircleBtn">
+            <span>VIEW</span>
+            <span>WORK</span>
+          </a>
+
+          <!-- Bottom Dual Action Pills (Solid White "LEARN MORE" + Outlined "CONTACT US") -->
+          <div class="tall-card-bottom-Bar">
+            <a href="#details-bento" class="pill-btn-solid">
+              <span>EXPLORE MORE</span>
+              <span class="pill-circle-icon dark">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <polyline points="19 12 12 19 5 12"></polyline>
+                </svg>
+              </span>
+            </a>
+
+            <a href="https://www.instagram.com/moinuddin_khan_25?srtk=cHhwaXNsZ2xqdDRn" target="_blank" rel="noopener noreferrer" class="pill-btn-outline">
+              <span>CONTACT ME</span>
+              <span class="pill-circle-icon light">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ====================================================================
+           3. EXPANDED EDUCATION, EXPERIENCE & PORTFOLIO BENTO ROW
+           ==================================================================== -->
+      <div class="bento-details-grid" id="details-bento">
+
+        <!-- Education Card -->
+        <div class="detail-bento-card">
+          <div class="detail-card-head">
+            <span class="detail-badge">EDUCATION</span>
+            <span class="detail-year">PRESENT</span>
+          </div>
+          <h3 class="detail-title">B.Tech in Computer Science &amp; Engineering</h3>
+          <p class="detail-org">Anjuman College of Engineering and Technology (ACET)</p>
+          <p class="detail-text">
+            Focusing on core Computer Science subjects including Data Structures &amp; Algorithms, Object-Oriented
+            Programming, Database Management Systems, Operating Systems, and Modern Web Technologies.
+          </p>
+          <div class="detail-chips">
+            <span>B.Tech CSE</span>
+            <span>DSA &amp; OOP</span>
+            <span>Software Engineering</span>
+          </div>
+        </div>
+
+        <!-- Dreams & Vision Card -->
+        <div class="detail-bento-card">
+          <div class="detail-card-head">
+            <span class="detail-badge">DREAMS &amp; VISION</span>
+            <span class="detail-year">AMBITION</span>
+          </div>
+          <h3 class="detail-title">Future Software Innovator &amp; Tech Leader</h3>
+          <p class="detail-org">Turning Big Dreams Into Reality</p>
+          <p class="detail-text">
+            My dream is to become a world-class Software Engineer, build innovative tech products that make a real
+            difference globally, achieve financial &amp; career excellence, and make my family and institution proud.
+          </p>
+          <div class="detail-chips">
+            <span>Global Tech Impact</span>
+            <span>Software Architect</span>
+            <span>Relentless Growth</span>
+          </div>
+        </div>
+
+        <!-- Direct Social & Profile Connect Card -->
+        <div class="detail-bento-card highlight-card">
+          <div class="detail-card-head">
+            <span class="detail-badge">DIRECT CONNECT</span>
+            <span class="detail-year">24/7 ACTIVE</span>
+          </div>
+          <h3 class="detail-title">Let's Build Together</h3>
+          <p class="detail-org">Moinuddin Raza Qadri</p>
+          <p class="detail-text">
+            Connect directly on Instagram or Snapchat for collaborations, tech discussions, and project updates.
+          </p>
+          <div class="detail-social-row">
+            <a href="https://www.instagram.com/moinuddin_khan_25?srtk=cHhwaXNsZ2xqdDRn" target="_blank" rel="noopener noreferrer" class="detail-social-btn">
+              Instagram &nearr;
+            </a>
+            <a href="https://www.snapchat.com/add/moinuddin7830?share_id=PAuw2stwk-w&locale=en-IN" target="_blank" rel="noopener noreferrer" class="detail-social-btn alt">
+              Snapchat &nearr;
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer inside Bento Shell -->
+      <div class="bento-footer-bar">
+        <span>&copy; 2026 <strong>MOINUDDIN RAZA QADRI</strong> &bull; B.Tech CSE (Anjuman College of Engineering and Technology)</span>
+        <a href="#home" class="back-top-pill">Back to Top &uarr;</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Overlay Modal for About & Contact -->
+  <div class="modal-backdrop" id="infoModal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close dialog">&times;</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
